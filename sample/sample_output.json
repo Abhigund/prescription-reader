@@ -1,0 +1,205 @@
+{
+  "confidence_score": 0.98,
+  "fhir_bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "8ace24f1-565e-41be-8672-816d70af1f4e",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Expectorant"
+          },
+          "subject": {
+            "display": "Anne Burton"
+          },
+          "requester": {
+            "display": "Unknown Practitioner"
+          },
+          "dosageInstruction": [
+            {
+              "text": "1 tablet Every 4 hours",
+              "route": {
+                "coding": [
+                  {
+                    "display": "Oral"
+                  }
+                ]
+              }
+            }
+          ],
+          "authoredOn": "November 8, 2021",
+          "reasonCode": [
+            {
+              "text": "Removes phlegm"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "8d6f5b48-dc35-4180-b669-c0ae5eb9b4b2",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol"
+          },
+          "subject": {
+            "display": "Anne Burton"
+          },
+          "requester": {
+            "display": "Unknown Practitioner"
+          },
+          "dosageInstruction": [
+            {
+              "text": "1 tablet Every 4 hours",
+              "route": {
+                "coding": [
+                  {
+                    "display": "Oral"
+                  }
+                ]
+              }
+            }
+          ],
+          "authoredOn": "November 8, 2021",
+          "reasonCode": [
+            {
+              "text": "For fever"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "61ed2d08-50b4-4e35-b536-f1c732ec1973",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Anti-biotic"
+          },
+          "subject": {
+            "display": "Anne Burton"
+          },
+          "requester": {
+            "display": "Unknown Practitioner"
+          },
+          "dosageInstruction": [
+            {
+              "text": "500mg Every 8 hours",
+              "route": {
+                "coding": [
+                  {
+                    "display": "Oral"
+                  }
+                ]
+              }
+            }
+          ],
+          "authoredOn": "November 8, 2021",
+          "reasonCode": [
+            {
+              "text": "Bacterial infection"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "2f3a9805-7522-4ef9-b3be-cf0225105b9b",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Vitamin C"
+          },
+          "subject": {
+            "display": "Anne Burton"
+          },
+          "requester": {
+            "display": "Unknown Practitioner"
+          },
+          "dosageInstruction": [
+            {
+              "text": "500mg Once a day",
+              "route": {
+                "coding": [
+                  {
+                    "display": "Oral"
+                  }
+                ]
+              }
+            }
+          ],
+          "authoredOn": "November 8, 2021",
+          "reasonCode": [
+            {
+              "text": "Immune system"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "MedicationRequest",
+          "id": "5f10ca13-585a-4d7c-b198-1b28bd3533e2",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Vitamin D"
+          },
+          "subject": {
+            "display": "Anne Burton"
+          },
+          "requester": {
+            "display": "Unknown Practitioner"
+          },
+          "dosageInstruction": [
+            {
+              "text": "1 tablet Once a day",
+              "route": {
+                "coding": [
+                  {
+                    "display": "Oral"
+                  }
+                ]
+              }
+            }
+          ],
+          "authoredOn": "November 8, 2021",
+          "reasonCode": [
+            {
+              "text": "Immune system"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "58315476-8b8c-470b-a441-3e4904051b3f",
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Anne Burton"
+          },
+          "code": {
+            "text": "Seafood"
+          }
+        }
+      }
+    ]
+  }
+}
